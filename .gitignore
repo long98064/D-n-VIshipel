@@ -1,0 +1,21 @@
+# Bỏ qua các thư mục công cụ / IDE mà bạn yêu cầu
+.claude/
+.gitnexus/
+.vs/
+.vscode/
+
+# Bỏ qua thư mục rác của Frontend (React)
+node_modules/
+dist/
+build/
+.env
+
+# Bỏ qua thư mục rác của Backend (.NET)
+bin/
+obj/
+appsettings.Development.json
+
+# Bỏ qua file log và database local (nếu có)
+*.log
+*.sqlite
+*.db
